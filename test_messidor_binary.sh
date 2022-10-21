@@ -1,0 +1,4 @@
+python main.py -b 32 -Epoch 100 -g 0 -is 512 -cs 448 -lr 3e-4 -path /home/fj/Desktop/PyTorch/dataset/Diabetic_Retinopathy/Messidor_/ -train ./list/messidor_t_normal.csv -test ./list/messidor_v_normal.csv
+python main.py -b 32 -Epoch 100 -g 0 -is 512 -cs 448 -lr 1e-4 -path /home/fj/Desktop/PyTorch/dataset/Diabetic_Retinopathy/Messidor_/ -train ./list/messidor_t_normal.csv -test ./list/messidor_v_normal.csv
+python main.py -b 32 -Epoch 100 -g 0 -is 512 -cs 448 -lr 3e-4 -path /home/fj/Desktop/PyTorch/dataset/Diabetic_Retinopathy/Messidor_/ -train ./list/messidor_t_referable.csv -test ./list/messidor_v_referable.csv
+python main.py -b 32 -Epoch 100 -g 0 -is 512 -cs 448 -lr 1e-4 -path /home/fj/Desktop/PyTorch/dataset/Diabetic_Retinopathy/Messidor_/ -train ./list/messidor_t_referable.csv -test ./list/messidor_v_referable.csv
